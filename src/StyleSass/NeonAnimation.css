@@ -1,0 +1,6 @@
+canvas {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  transform: translate(-40%, -50%) scale(0.9);
+}
