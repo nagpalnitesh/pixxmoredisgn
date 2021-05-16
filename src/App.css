@@ -262,10 +262,23 @@ body {
 .page4:active .text p,
 .page5:active .text p,
 .page6:active .text p,
-.page7:active .text p {
+.page7:active .text p,
+.page1:active .txt h4,
+.page2:active .txt h4,
+.page3:active .txt h4,
+.page4:active .txt h4,
+.page5:active .txt h4 {
   color: white;
   transition: color 0.5s linear;
   font-weight: 600;
+}
+
+.page1:active .arrowimg img,
+.page2:active .arrowimg img,
+.page3:active .arrowimg img,
+.page4:active .arrowimg img,
+.page5:active .arrowimg img {
+  filter: invert(1);
 }
 
 .page1:active .logo #black {
