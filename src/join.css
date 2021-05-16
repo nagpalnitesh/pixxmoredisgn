@@ -1,0 +1,28 @@
+.txt {
+  text-align: left;
+  position: absolute;
+  left: 86.5%;
+  bottom: 13.5%;
+}
+
+.arrowimg {
+  position: absolute;
+  left: 90%;
+  bottom: 6%;
+  width: 3%;
+}
+
+.arrowimg img {
+  width: 100%;
+}
+
+.mainimg {
+  position: absolute;
+  left: 93%;
+  width: 5%;
+  bottom: 0;
+}
+
+.mainimg img {
+  width: 100%;
+}

@@ -10,7 +10,6 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import "./App.css";
 
-import Audio from "./soft.mp3";
 import "./preloader.css";
 
 import Home from "./Home";
@@ -23,7 +22,7 @@ import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Try from "./Try";
 import About from "./About";
-import Home1 from "./Home1";
+// import Home1 from "./home1";
 export default function App() {
   useEffect(() => {
     // var source = "https://html5music.herokuapp.com/media/no_words.webm";
@@ -42,7 +41,7 @@ export default function App() {
         <AnimatePresence>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/home1" exact component={Home1} />
+            {/* <Route path="/home1" exact component={Home1} /> */}
             <Route path="/about" exact component={About} />
             <Route path="/services" exact component={Service} />
             <Route path="/clients" exact component={Client} />
@@ -60,6 +59,7 @@ export default function App() {
             controls
             autoplay
             loop
+            preload="auto"
           >
             <source src="./music.mp3" />
           </audio>

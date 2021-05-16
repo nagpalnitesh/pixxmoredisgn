@@ -22,7 +22,7 @@ export default function Career() {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
     >
-      <Link to="/home1">
+      <Link to="/">
         <Cross />
       </Link>
       <div>

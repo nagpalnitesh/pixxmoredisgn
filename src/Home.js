@@ -3,12 +3,17 @@ import "./App.css";
 import Pixxmo from "./TBG.png";
 import PixxmoW from "./TBGW.png";
 import "./preloader.css";
+import "./join.css";
 
 import Preloader from "./Preloader";
-// import Audio from "./soft.mp3";
+
 import { Link, Redirect, useHistory } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import Nav from "./Nav";
+
+import Arrow from "./Images/arrow.png";
+import MainImg from "./Images/pixxmohub_250.png";
+
 export default function Home() {
   const History = useHistory();
   useEffect(() => {
@@ -88,7 +93,7 @@ export default function Home() {
       window.addEventListener("load", () => {
         audio.play();
       });
-    },5000);
+    }, 5000);
     var count = 0;
     audiobars.forEach((element) => {
       element.addEventListener("click", (e) => {
@@ -438,6 +443,17 @@ export default function Home() {
                 <Nav />
               </div>
               <div className="audiobars"></div>
+              <div className="txt">
+                <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+              </div>
+              <div className="arrowimg">
+                <img src={Arrow} alt="arrow" />
+              </div>
+              <div className="mainimg">
+                <a href="https://community.pixxmo.com/" target="_blank">
+                  <img src={MainImg} alt="pixXmo Hub" />
+                </a>
+              </div>
             </div>
           </div>
           <div className="page2">
@@ -453,6 +469,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
           <div className="page3">
             <div className="image2">
@@ -468,6 +495,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
           <div className="page4">
             <div className="image3 imgg">
@@ -483,6 +521,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
           <div className="page5">
             <div className="image4 imgg">
@@ -498,6 +547,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
           <div className="page4 page6">
             <div className="image5 imgg">
@@ -513,6 +573,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
           <div className="page4 page7">
             <div className="image6 imgg">
@@ -528,6 +599,17 @@ export default function Home() {
             </div>
             <Nav />
             <div className="audiobars"></div>
+            <div className="txt">
+              <h4 style={{ fontStyle: "italic" }}>Join pixXmo Hub</h4>
+            </div>
+            <div className="arrowimg">
+              <img src={Arrow} alt="arrow" />
+            </div>
+            <div className="mainimg">
+              <a href="https://community.pixxmo.com/" target="_blank">
+                <img src={MainImg} alt="pixXmo Hub" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
