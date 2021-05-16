@@ -8,10 +8,9 @@
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
-  
 }
 
 *::-webkit-scrollbar {
@@ -2108,22 +2107,19 @@ body {
   } */
 }
 
-
-
-.audiobars{
-  background:url("./sound-bars.svg");
+.audiobars {
+  background: url("./sound-bars.svg");
   height: 30px;
   position: absolute;
   width: 60px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  bottom: 2rem;
-  left: 5rem;
+  bottom: 8%;
+  left: 5%;
   cursor: pointer;
-
 }
 
-audio{
+audio {
   display: none;
 }
